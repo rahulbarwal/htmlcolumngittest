@@ -297,7 +297,7 @@
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
       "columnType": "html",
-      "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( '<a target=\"_blank\" href=\"' + currentRow[\"homepage\"] + '\">test link</a>'))}}",
+      "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( '<a href=\"' + currentRow[\"homepage\"] + '\">' + currentRow[\"title\"] + '</a>'))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
